@@ -13,11 +13,11 @@ body {
 }
 
 .box {
-    background-color: #3a6e49;
+    background-color: #3a6e49; /* Change green color to blue */
     height: 30rem;
     width: 25rem;
     border-radius: 2rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,6 @@ body {
     width: 80%;
     background-color: #fff;
     border-radius: 2rem;
-    /* Added texture for a realistic look */
     background-image: radial-gradient(#ccc 1px, transparent 1px),
                       radial-gradient(#ccc 1px, transparent 1px);
     background-position: 0 0, 20px 20px;
@@ -48,9 +47,8 @@ body {
 .image img {
     height: 15rem;
     width: 15rem;
-    /* Added border to simulate edges of the dice */
     border: 1px solid #ccc;
-    border-radius: 1rem; /* Adjusted border-radius for rounded corners */
+    border-radius: 1rem;
 }
 
 .box input {
