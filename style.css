@@ -13,7 +13,7 @@ body {
 }
 
 .box {
-    background-color: #3a6e49; /* Change green color to blue */
+    background-color: #3a6e49;
     height: 30rem;
     width: 25rem;
     border-radius: 2rem;
@@ -51,11 +51,11 @@ body {
     border-radius: 1rem;
 }
 
-.box input {
+.box button {
     margin-top: 2rem;
-    width: 80%;
-    border-radius: 0.2rem;
-    height: 2rem;
+    width: 12rem; /* Adjust width to make the button bigger */
+    height: 12rem; /* Adjust height to make the button bigger */
+    border-radius: 50%; /* Make the button round */
     outline: none;
     border: none;
     background-color: #80c6ff;
